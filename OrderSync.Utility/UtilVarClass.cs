@@ -7,7 +7,7 @@ namespace OrderSync.Utility
     public static class UtilVarClass
     {
 
-        //Devoloper Pc
+        //Connection
         public static readonly string connectionString = @"Data Source=DESKTOP-OV9DER6,1433;Initial Catalog=OnlineSyncServiceDB;User ID=sa;Password=1234561";
     }
 }
