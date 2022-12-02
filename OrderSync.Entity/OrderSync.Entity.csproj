@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{835ED7A5-5DEA-4989-AD37-04418467AD24}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrderSync.Entity</RootNamespace>
+    <AssemblyName>OrderSync.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Allergens.cs" />
+    <Compile Include="Bag_Charge.cs" />
+    <Compile Include="CardType.cs" />
+    <Compile Include="Default_Message.cs" />
+    <Compile Include="Default_Order_Note.cs" />
+    <Compile Include="Delivery_Charge.cs" />
+    <Compile Include="delivery_distance.cs" />
+    <Compile Include="delivery_duration.cs" />
+    <Compile Include="Dish_category.cs" />
+    <Compile Include="Dish_Course.cs" />
+    <Compile Include="Dish_Group.cs" />
+    <Compile Include="Floor_object.cs" />
+    <Compile Include="Floor_Object_Shape.cs" />
+    <Compile Include="Floor_object_type.cs" />
+    <Compile Include="Groupwise_Option.cs" />
+    <Compile Include="Miscellaneous_Dish.cs" />
+    <Compile Include="Notification.cs" />
+    <Compile Include="Offer_Discount.cs" />
+    <Compile Include="OnlineCardPaymentOrder.cs" />
+    <Compile Include="OnlineOrder.cs" />
+    <Compile Include="Online_Order_Status_Update.cs" />
+    <Compile Include="Option_Group.cs" />
+    <Compile Include="Platform.cs" />
+    <Compile Include="Post_Order_Error_Service.cs" />
+    <Compile Include="Post_Order_Service.cs" />
+    <Compile Include="Post_Reservation_Error.cs" />
+    <Compile Include="Printer_Zone.cs" />
+    <Compile Include="Printer_zone_setup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Restart_Service_Online_Order_Sync.cs" />
+    <Compile Include="Restaurants.cs" />
+    <Compile Include="RestaurantSettings.cs" />
+    <Compile Include="Restaurant_api.cs" />
+    <Compile Include="Restaurant_Business_Day.cs" />
+    <Compile Include="Restaurant_Cuisine.cs" />
+    <Compile Include="Restaurant_dish.cs" />
+    <Compile Include="Restaurant_dish_instruction.cs" />
+    <Compile Include="Restaurant_dish_sub_category.cs" />
+    <Compile Include="Restaurant_floor.cs" />
+    <Compile Include="Restaurant_order.cs" />
+    <Compile Include="Restaurant_order_policy.cs" />
+    <Compile Include="Restaurant_reservation.cs" />
+    <Compile Include="Restaurant_Schedule.cs" />
+    <Compile Include="Restaurant_User.cs" />
+    <Compile Include="Terminal.cs" />
+    <Compile Include="UserSettings.cs" />
+    <Compile Include="User_type.cs" />
+    <Compile Include="ZReportEntity.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

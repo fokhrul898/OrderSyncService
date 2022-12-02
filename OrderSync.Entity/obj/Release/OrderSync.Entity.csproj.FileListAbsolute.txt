@@ -1,0 +1,6 @@
+C:\OnlineOrderSync\OrderSync.Entity\bin\Release\OrderSync.Entity.dll
+C:\OnlineOrderSync\OrderSync.Entity\bin\Release\OrderSync.Entity.pdb
+C:\OnlineOrderSync\OrderSync.Entity\obj\Release\OrderSync.Entity.csproj.AssemblyReference.cache
+C:\OnlineOrderSync\OrderSync.Entity\obj\Release\OrderSync.Entity.csproj.CoreCompileInputs.cache
+C:\OnlineOrderSync\OrderSync.Entity\obj\Release\OrderSync.Entity.dll
+C:\OnlineOrderSync\OrderSync.Entity\obj\Release\OrderSync.Entity.pdb

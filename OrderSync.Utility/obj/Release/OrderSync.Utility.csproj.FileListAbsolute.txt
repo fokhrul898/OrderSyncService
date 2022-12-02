@@ -1,0 +1,11 @@
+C:\OnlineOrderSync\OrderSync.Utility\bin\Release\OrderSync.Utility.dll
+C:\OnlineOrderSync\OrderSync.Utility\bin\Release\OrderSync.Utility.pdb
+C:\OnlineOrderSync\OrderSync.Utility\bin\Release\OrderSync.Entity.dll
+C:\OnlineOrderSync\OrderSync.Utility\bin\Release\Serilog.dll
+C:\OnlineOrderSync\OrderSync.Utility\bin\Release\OrderSync.Entity.pdb
+C:\OnlineOrderSync\OrderSync.Utility\bin\Release\Serilog.xml
+C:\OnlineOrderSync\OrderSync.Utility\obj\Release\OrderSync.Utility.csproj.AssemblyReference.cache
+C:\OnlineOrderSync\OrderSync.Utility\obj\Release\OrderSync.Utility.csproj.CoreCompileInputs.cache
+C:\OnlineOrderSync\OrderSync.Utility\obj\Release\OrderSync.Utility.csproj.CopyComplete
+C:\OnlineOrderSync\OrderSync.Utility\obj\Release\OrderSync.Utility.dll
+C:\OnlineOrderSync\OrderSync.Utility\obj\Release\OrderSync.Utility.pdb
